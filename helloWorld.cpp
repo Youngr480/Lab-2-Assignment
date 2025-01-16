@@ -1,16 +1,15 @@
 // Author: Linsey Pram, Reise Young, Ruben Gonzalez
 // Description: Hello World in C++
 //============================================================
-main
 #include <iostream>
 using namespace std;
 int hello1Function(string Linsey);
 int hello2Function(string Reise);
 int main()
 {
-string name1="your name1";
+string name1="Linsey";
 hello1Function(name1);
-string name2="your name2";
+string name2="Reise";
 hello2Function(name2);
 return 0;
 }
