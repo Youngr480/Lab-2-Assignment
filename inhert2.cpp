@@ -1,8 +1,9 @@
 #include <iostream>
-using namespace std;
 #include <string>
 #include "inherit2.h"
+
 using namespace std;
+
 void personType::print() const
 {
 cout<<firstName<<" "<<lastName;
