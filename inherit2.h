@@ -1,9 +1,10 @@
 #ifndef H_PersonType
 #define H_PersonType
+
 #include <string>
 using namespace std;
-class personType
-{
+
+class personType {
 public:
 void print() const;
 //Function to output the first name and last name
@@ -28,4 +29,5 @@ private:
 string firstName; //store the first name
 string lastName; //store the last name
 };
+
 #endif
